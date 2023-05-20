@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="BookSearchApp.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookSearchApp"
+    xmlns:vm="using:BookSearchApp.ModelViews"
+    xmlns:model="using:BookSearchApp.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <vm:MainPageViewModel x:Name="viewModel"/>
+    </Page.DataContext>
+
+    <Page.Background>
+        <ImageBrush ImageSource="ms-appx:///Assets/b9c21d1dc50337a0673157e535e3283121435fd0.jpg" Stretch="UniformToFill"/>
+    </Page.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Search-->
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBox x:Name="SearchBox_Title" Width="300" Margin="0,0,10,0" Text="{Binding SearchTerm, Mode=TwoWay}" PlaceholderText="SearchWithTitle" FontStyle="Italic" PlaceholderForeground="Red" />
+            <Button x:Name="SearchButton_Title" Margin="0,0,45,0" Content="Search!" Click="SearchClicked" Foreground="Red" />
+            <TextBox x:Name="SearchBox_Author" Width="300" Margin="0,0,10,0" Text="{Binding SearchTerm, Mode=TwoWay}" PlaceholderText="SearchWithAuthor" FontStyle="Italic" PlaceholderForeground="Red" />
+            <Button x:Name="SearchButton_Author" Margin="0,0,45,0" Content="Search!" Click="SearchClickedAccordingToAuthor" Foreground="Red" />
+        </StackPanel>
+
+        <!--Result-->
+        <GridView x:Name="MainGridView" Grid.Row="1" ItemsSource="{Binding Books,Mode=TwoWay}" IsItemClickEnabled="True" ItemClick="Book_Clicked" Margin="10">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Width="550" Margin="5">
+                        <Image Source="{Binding ImageUrl}" Tag="{Binding ImageUrl}" Tapped="Image_Tapped" Width="200" Height="250" Stretch="Uniform" />
+                        <StackPanel Margin="10,0,0,0">
+                            <TextBlock Text="{Binding title}" FontWeight="Bold" FontSize="20"/>
+                            <TextBlock Text="{Binding FirstAuthorKey}" FontWeight="Bold" FontSize="20"/>
+                            <HyperlinkButton  Content="{Binding FirstAuthorName}" FontStyle="Italic" FontSize="16" Margin="0,5,0,0" Tag="{Binding FirstAuthorKey}" Click="AuthorButton_Clicked" />
+                            <TextBlock Text="{Binding first_publish_year}" FontSize="16" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+    </Grid>
+</Page>
