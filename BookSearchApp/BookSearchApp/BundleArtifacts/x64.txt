@@ -1,0 +1,2 @@
+MainPackage=D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x64\Debug\BookSearchApp_1.0.0.0_x64_Debug.appx
+SymbolPackage=D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\obj\x64\Debug\Symbols\BookSearchApp_1.0.0.0_x64_Debug.appxsym

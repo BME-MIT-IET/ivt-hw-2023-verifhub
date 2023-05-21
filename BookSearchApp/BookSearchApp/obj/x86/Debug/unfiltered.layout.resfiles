@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\6df91ec1aa415891e41b4a31620b077c6a76e146.png
 Assets\b9c21d1dc50337a0673157e535e3283121435fd0.jpg
 Assets\f58ed415b6acf7ed00e39ef60fb922fcb684c42f.jpg
@@ -15,3 +14,4 @@ Views\AuthorPage.xbf
 Views\BookDetailPage.xbf
 Views\MainPage.xbf
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

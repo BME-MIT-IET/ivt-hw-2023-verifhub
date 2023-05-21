@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="BookSearchApp.Views.AuthorPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:BookSearchApp.ModelViews"
+    mc:Ignorable="d">
+
+    <Page.Background>
+        <ImageBrush ImageSource="ms-appx:///Assets/6df91ec1aa415891e41b4a31620b077c6a76e146.png" Stretch="UniformToFill"/>
+    </Page.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Page Header -->
+        <Grid Grid.Row="0">
+            <!-- Page Title -->
+            <TextBlock Text="Author Page" FontWeight="Bold" FontSize="20"  Foreground="Red" HorizontalTextAlignment="Center" Margin="0,10,0,0"/>
+        </Grid>
+
+        <RelativePanel Grid.Row="1" >
+            <!-- Author Name -->
+            <TextBlock x:ConnectionId='2' x:Name="t0" Text="Name:" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='3' x:Name="author" Text="{Binding Author.personal_name}" FontStyle="Italic" RelativePanel.RightOf="t0" FontWeight="Bold" />
+
+            <!-- Author Birth Date -->
+            <TextBlock x:ConnectionId='4' x:Name="t1" Text="Birth Day:"  RelativePanel.Below="author" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='5' x:Name="Birth" Text="{Binding Author.birth_date}" RelativePanel.RightOf="t1" RelativePanel.Below="author" />
+
+            <!-- Author Alternate Name -->
+            <TextBlock x:ConnectionId='6' x:Name="t2" Text="Alternate Name:"  RelativePanel.Below="t1" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='7' x:Name="AltName" Text="{Binding Author.alternate_names[0]}" RelativePanel.RightOf="t2" RelativePanel.Below="Birth" />
+            <TextBlock x:ConnectionId='8' x:Name="a1" Text=";"  RelativePanel.RightOf="AltName" RelativePanel.Below="Birth" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='9' x:Name="AltName1" Text="{Binding Author.alternate_names[1]}" RelativePanel.RightOf="a1" RelativePanel.Below="Birth"  />
+            <TextBlock x:ConnectionId='10' x:Name="a2" Text=";"  RelativePanel.RightOf="AltName1" RelativePanel.Below="Birth" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='11' x:Name="AltName2" Text="{Binding Author.alternate_names[2]}" RelativePanel.RightOf="a2" RelativePanel.Below="Birth"  />
+            <TextBlock x:ConnectionId='12' x:Name="a3" Text=";"  RelativePanel.RightOf="AltName2" RelativePanel.Below="Birth" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='13' x:Name="AltName3" Text="{Binding Author.alternate_names[3]}" RelativePanel.RightOf="a3" RelativePanel.Below="Birth"  />
+
+            <!-- Author Bio -->
+            <TextBlock x:ConnectionId='14' x:Name="t3" Text="Introduction:"  RelativePanel.Below="t2" FontWeight="Bold" />
+            <TextBlock x:ConnectionId='15' x:Name="Bio" Text="{Binding Author.bio}" RelativePanel.RightOf="t3" RelativePanel.Below="AltName" FontStyle="Italic" TextWrapping="Wrap" />
+
+            <!-- Author Wiki -->
+            <TextBlock x:ConnectionId='16' x:Name="t4" Text="Wikipedia:" RelativePanel.Below="Bio" FontWeight="Bold"/>
+            <TextBlock x:ConnectionId='17' x:Name="Wiki" Text="{Binding Author.wikipedia}" RelativePanel.RightOf="t4" RelativePanel.Below="Bio"/>
+            <Button x:ConnectionId='18' Content="Back"                             RelativePanel.Below="t4"/>
+        </RelativePanel>
+    </Grid>
+</Page>
+

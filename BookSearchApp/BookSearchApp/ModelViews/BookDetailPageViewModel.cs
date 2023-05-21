@@ -37,7 +37,7 @@ namespace BookSearchApp.ModelViews
                 if (_title != null)
                 {
                     _title = _book.title;
-                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(Title)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Title)));
                 }
             }
         }
@@ -50,7 +50,7 @@ namespace BookSearchApp.ModelViews
                 if (_imageUrl != null)
                 {
                     _imageUrl = _book.ImageUrl;
-                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(ImageUrl)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(ImageUrl)));
                 }
             }
         }
@@ -61,7 +61,7 @@ namespace BookSearchApp.ModelViews
             set
             {  
                 _first_publish_year = _book.first_publish_year;
-                PropertyChanged(this, new PropertyChangedEventArgs(nameof(First_publish_year)));
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(First_publish_year)));
             }
         }
         private string _firstAuthorName;
@@ -73,7 +73,7 @@ namespace BookSearchApp.ModelViews
                 if (_firstAuthorName != null)
                 {
                     _firstAuthorName = _book.FirstAuthorName;
-                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(FirstAuthorName)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(FirstAuthorName)));
                 }
             }
         }
@@ -86,7 +86,7 @@ namespace BookSearchApp.ModelViews
                 if (language != null)
                 {
                     language = _book.language;
-                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(Language)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Language)));
                 }
             }
         }
