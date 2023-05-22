@@ -22,14 +22,14 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore NuGet packages
-      run: dotnet restore
-    - name: Build project
-      run: dotnet build --configuration Release
-    - name: Run tests
-      run: dotnet test --configuration Release --collect:"XPlat Code Coverage" --logger trx
-    - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore BookSearchApp.csproj
     - name: Build
       run: dotnet build BookSearchApp.csproj --no-restore
+    - name: Build project
+      run: dotnet build BookSearchApp.csproj--configuration Release
+    - name: Run tests
+      run: dotnet test BookSearchApp.csproj--configuration Release --collect:"XPlat Code Coverage" --logger trx
+    - name: Restore dependencies
+      run: dotnet restore BookSearchApp.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test BookSearchApp.csproj--no-build --verbosity normal
