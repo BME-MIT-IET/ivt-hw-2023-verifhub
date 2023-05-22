@@ -27,7 +27,7 @@ jobs:
         dotnet-version: 7.0.x
     - name: Restore NuGet packages
       run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
-    - name: Build
+    - name: Build and Restore
       run: dotnet build BookSearchApp/BookSearchApp/BookSearchApp.csproj --no-restore
     - name: Build project
       run: dotnet build BookSearchApp/BookSearchApp/BookSearchApp.csproj--configuration Release
