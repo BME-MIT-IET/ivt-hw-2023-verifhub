@@ -22,7 +22,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore NuGet packages
-      run: dotnet restore
+      run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
     - name: Build
       run: dotnet build BookSearchApp/BookSearchApp/BookSearchApp.csproj --no-restore
     - name: Build project
