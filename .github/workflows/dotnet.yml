@@ -10,12 +10,13 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build-and-test:
 
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
@@ -24,6 +25,8 @@ jobs:
       run: dotnet restore
     - name: Build project
       run: dotnet build --configuration Release
+    - name: Run tests
+      run: dotnet test --configuration Release --collect:"XPlat Code Coverage" --logger trx
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
