@@ -20,11 +20,11 @@ jobs:
     - name: Install .NET SDK
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '7.0.x'
+        dotnet-version: '7.0.103'
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 7.0.x
+        dotnet-version: '7.0.103'
     - name: Restore NuGet packages
       run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
     - name: Build and Restore
