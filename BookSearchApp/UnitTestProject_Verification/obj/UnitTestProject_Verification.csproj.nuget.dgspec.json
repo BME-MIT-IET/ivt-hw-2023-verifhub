@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\UnitTestProject_Verification\\UnitTestProject_Verification.csproj": {}
+  },
+  "projects": {
+    "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
+        "projectName": "BookSearchApp",
+        "projectPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
+        "packagesPath": "C:\\Users\\lht\\.nuget\\packages\\",
+        "outputPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\vs\\vs-WINSDK-COMPLIER\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.5, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.14, )"
+            },
+            "Microsoft.Xaml.Behaviors.Uwp.Managed": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0.68202, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Template10": {
+              "target": "Package",
+              "version": "[1.1.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\UnitTestProject_Verification\\UnitTestProject_Verification.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\UnitTestProject_Verification\\UnitTestProject_Verification.csproj",
+        "projectName": "UnitTestProject_Verification",
+        "projectPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\UnitTestProject_Verification\\UnitTestProject_Verification.csproj",
+        "packagesPath": "C:\\Users\\lht\\.nuget\\packages\\",
+        "outputPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\UnitTestProject_Verification\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\vs\\vs-WINSDK-COMPLIER\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.19041"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.19041": {
+            "projectReferences": {
+              "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj": {
+                "projectPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.19041": {
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.5, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.14, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0.68202, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

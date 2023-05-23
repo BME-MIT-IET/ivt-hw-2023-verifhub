@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-MR6DDP9</Machine>
-    <WindowsUser>cszzj</WindowsUser>
+    <Machine>LAPTOP-O94A6SRG</Machine>
+    <WindowsUser>lht</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,109 +10,127 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1720cb58-9249-4726-b532-061a95fab400</PackageIdentityName>
     <PackageIdentityPublisher>CN=cszzj</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\AppX</LayoutDir>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.exe">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.exe">
       <PackagePath>entrypoint\BookSearchApp.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\appium.webdriver\4.4.5\lib\netstandard2.0\Appium.Net.dll">
+      <PackagePath>Appium.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\castle.core\4.3.1\lib\netstandard1.5\Castle.Core.dll">
+      <PackagePath>Castle.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\dotnetseleniumextras.pageobjects\3.11.0\lib\netstandard2.0\SeleniumExtras.PageObjects.dll">
+      <PackagePath>SeleniumExtras.PageObjects.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\newtonsoft.json\13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\newtonsoft.json\13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library.dll">
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\selenium.support\3.141.0\lib\netstandard2.0\WebDriver.Support.dll">
+      <PackagePath>WebDriver.Support.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll">
+      <PackagePath>WebDriver.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.drawing.common\4.7.2\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library.dll">
       <PackagePath>Template10Library.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library\Template10Library.xr.xml">
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library\Template10Library.xr.xml">
       <PackagePath>Template10Library\Template10Library.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library\Properties\Template10Library.rd.xml">
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library\Properties\Template10Library.rd.xml">
       <PackagePath>Template10Library\Properties\Template10Library.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\6df91ec1aa415891e41b4a31620b077c6a76e146.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\6df91ec1aa415891e41b4a31620b077c6a76e146.png">
       <PackagePath>Assets\6df91ec1aa415891e41b4a31620b077c6a76e146.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\b9c21d1dc50337a0673157e535e3283121435fd0.jpg">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\b9c21d1dc50337a0673157e535e3283121435fd0.jpg">
       <PackagePath>Assets\b9c21d1dc50337a0673157e535e3283121435fd0.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\f58ed415b6acf7ed00e39ef60fb922fcb684c42f.jpg">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\f58ed415b6acf7ed00e39ef60fb922fcb684c42f.jpg">
       <PackagePath>Assets\f58ed415b6acf7ed00e39ef60fb922fcb684c42f.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.xr.xml">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.xr.xml">
       <PackagePath>BookSearchApp.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\AuthorPage.xbf">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\AuthorPage.xbf">
       <PackagePath>Views\AuthorPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\BookDetailPage.xbf">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\BookDetailPage.xbf">
       <PackagePath>Views\BookDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Core\BookSearchApp.exe">
+    <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Core\BookSearchApp.exe">
       <PackagePath>BookSearchApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

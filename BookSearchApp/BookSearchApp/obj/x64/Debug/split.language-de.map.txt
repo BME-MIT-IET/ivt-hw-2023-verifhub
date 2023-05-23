@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-de"
+"ResourceDimensions"		"language-de-de"
+
+[Files]
+"D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\obj\x64\Debug\split.language-de.pri"			"resources.pri"

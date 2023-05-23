@@ -37,7 +37,7 @@ namespace BookSearchApp.ModelViews
                 if (_books != value)
                 {
                     _books = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(Books)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Books)));
                 }
             }
         }
@@ -50,7 +50,7 @@ namespace BookSearchApp.ModelViews
                 if (_searchTerm != value)
                 {
                     _searchTerm = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(SearchTerm)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SearchTerm)));
                 }
             }
         }

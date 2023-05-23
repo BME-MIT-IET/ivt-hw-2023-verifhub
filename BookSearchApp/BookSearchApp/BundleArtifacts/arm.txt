@@ -1,0 +1,3 @@
+MainPackage=D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\ARM\Debug\BookSearchApp_1.0.0.0_ARM_Debug.appx
+SymbolPackage=D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\obj\ARM\Debug\Symbols\BookSearchApp_1.0.0.0_ARM_Debug.appxsym
+ResourcePack=D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\ARM\Debug\BookSearchApp_1.0.0.0_language-zh-hans.appx

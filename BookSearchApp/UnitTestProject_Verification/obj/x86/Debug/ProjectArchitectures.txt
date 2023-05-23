@@ -1,0 +1,2 @@
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\BookSearchApp.csproj;x86
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\UnitTestProject_Verification.csproj;x86
