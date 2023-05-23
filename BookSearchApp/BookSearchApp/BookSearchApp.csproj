@@ -211,20 +211,7 @@
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
-  <Choose>
-  <When Condition="'$(VisualStudioVersion)' == '7.0.201'">
-    <PropertyGroup>
-      <XamlTargetsPath>$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v7.0.201\Microsoft.Windows.UI.Xaml.CSharp.targets</XamlTargetsPath>
-    </PropertyGroup>
-  </When>
-  <Otherwise>
-    <PropertyGroup>
-      <XamlTargetsPath>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\WindowsXaml\v17.0\Microsoft.Windows.UI.Xaml.CSharp.targets</XamlTargetsPath>
-    </PropertyGroup>
-  </Otherwise>
-</Choose>
-
-<Import Project="$(XamlTargetsPath)" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
