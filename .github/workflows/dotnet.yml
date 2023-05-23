@@ -24,10 +24,10 @@ jobs:
     - name: Restore NuGet packages
       run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
     - name: Build project
-      run: dotnet build BookSearchApp/BookSearchApp/BookSearchApp.csproj--configuration Release
+      run: dotnet build BookSearchApp/BookSearchApp/BookSearchApp.csproj --configuration Release
     - name: Run tests
-      run: dotnet test BookSearchApp/UnitTestProject_Verfication/UnitTestProject_Verfication.csproj--configuration Release
+      run: dotnet test BookSearchApp/UnitTestProject_Verfication/UnitTestProject_Verfication.csproj --configuration Release
     - name: Restore dependencies
       run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
     - name: Test
-      run: dotnet test BookSearchApp/UnitTestProject_Verfication/UnitTestProject_Verfication.csproj--no-build --verbosity normal
+      run: dotnet test BookSearchApp/UnitTestProject_Verfication/UnitTestProject_Verfication.csproj --no-build --verbosity normal
