@@ -55,6 +55,12 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0.68202, )"
+            },
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -153,6 +159,12 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0.68202, )"
             }
           },
           "imports": [

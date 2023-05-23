@@ -713,6 +713,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2541,6 +2544,9 @@
             "related": ".xml"
           }
         }
+      },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
       },
       "System.Buffers/4.3.0": {
         "type": "package",
@@ -4426,6 +4432,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -6310,6 +6319,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -8162,6 +8174,9 @@
             "related": ".xml"
           }
         }
+      },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
       },
       "System.Buffers/4.3.0": {
         "type": "package",
@@ -10047,6 +10062,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -11899,6 +11917,9 @@
             "related": ".xml"
           }
         }
+      },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
       },
       "System.Buffers/4.3.0": {
         "type": "package",
@@ -13783,6 +13804,9 @@
             "related": ".xml"
           }
         }
+      },
+      "SonarAnalyzer.CSharp/9.0.0.68202": {
+        "type": "package"
       },
       "System.Buffers/4.3.0": {
         "type": "package",
@@ -19852,6 +19876,26 @@
         "selenium.webdriver.nuspec"
       ]
     },
+    "SonarAnalyzer.CSharp/9.0.0.68202": {
+      "sha512": "CdkFID8hrFCwxZkB/xubADWO0zZoGxG8fv6MHUoreUQ6syLXCELDE9DZy68ktEX1DhsQeW8IUHMroUU2gh2Byw==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.0.0.68202",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.0.0.68202.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.Buffers/4.3.0": {
       "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
       "type": "package",
@@ -22289,6 +22333,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "Microsoft.Xaml.Behaviors.Uwp.Managed >= 2.0.1",
       "Newtonsoft.Json >= 13.0.3",
+      "SonarAnalyzer.CSharp >= 9.0.0.68202",
       "System.Collections >= 4.3.0",
       "Template10 >= 1.1.12"
     ]
@@ -22348,6 +22393,12 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0.68202, )"
           },
           "System.Collections": {
             "target": "Package",

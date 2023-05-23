@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r4rwsdtiSaBQTSDkOxaJ46yJgPiGwfPyMq0pPRLnKmO172XeHc/zWdT0GjIU7NA9A4ZSC57AyElH83723fDldg==",
+  "dgSpecHash": "gq/tFpo3rGHcqeUHmxZGpMp5MSNWlKhURwTKdS+9lLF/VhsQlwOCz9nGBAexMaJcwHBbK5zQpE5UspURCTvw1Q==",
   "success": true,
   "projectFilePath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,7 @@
     "C:\\Users\\lht\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\lht\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\lht\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\lht\\.nuget\\packages\\sonaranalyzer.csharp\\9.0.0.68202\\sonaranalyzer.csharp.9.0.0.68202.nupkg.sha512",
     "C:\\Users\\lht\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\lht\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\lht\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",

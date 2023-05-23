@@ -13,6 +13,7 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Appium.Enums;
 using OpenQA.Selenium.Appium;
 using System.Linq;
+using System.IO;
 
 namespace UnitTestProject_Verification
 {
@@ -83,16 +84,19 @@ namespace UnitTestProject_Verification
     //[TestClass]
     //public class UwpAppTests
     //{
-    //    private const string WindowsApplicationDriverUrl = "http://127.0.0.1:4723/";
-    //    private const string UwpAppId = "App";
+    //    private const string WindowsApplicationDriverUrl = "http://127.0.0.1:4723";
+    //    private const string UwpAppId = "1720cb58-9249-4726-b532-061a95fab400_46g4wnw8zydga";
+
+    //    //private readonly string appPath = Path.Combine("1720cb58-9249-4726-b532-061a95fab400");
 
     //    private WindowsDriver<WindowsElement> driver;
 
     //    [TestInitialize]
     //    public void TestInitialize()
     //    {
+    //        Process.Start(@"D:\extension application\WinAppDriver\WinAppDriver.exe");
     //        AppiumOptions appiumOptions = new AppiumOptions();
-    //        appiumOptions.AddAdditionalCapability(MobileCapabilityType.App, UwpAppId);
+    //        appiumOptions.AddAdditionalCapability("app", @"D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x64\Debug\BookSearchApp.exe");
     //        driver = new WindowsDriver<WindowsElement>(new Uri(WindowsApplicationDriverUrl), appiumOptions);
     //        Assert.IsNotNull(driver);
     //    }
