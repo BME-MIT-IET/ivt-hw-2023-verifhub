@@ -28,6 +28,15 @@
     <AppxPackagedFile Include="C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.exe">
       <PackagePath>entrypoint\BookSearchApp.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\appium.webdriver\4.4.5\lib\netstandard2.0\Appium.Net.dll">
+      <PackagePath>Appium.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\castle.core\4.3.1\lib\netstandard1.5\Castle.Core.dll">
+      <PackagePath>Castle.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\dotnetseleniumextras.pageobjects\3.11.0\lib\netstandard2.0\SeleniumExtras.PageObjects.dll">
+      <PackagePath>SeleniumExtras.PageObjects.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
     </AppxPackagedFile>
@@ -39,6 +48,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\selenium.support\3.141.0\lib\netstandard2.0\WebDriver.Support.dll">
+      <PackagePath>WebDriver.Support.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll">
+      <PackagePath>WebDriver.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\system.drawing.common\4.7.2\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library.dll">
       <PackagePath>Template10Library.dll</PackagePath>
