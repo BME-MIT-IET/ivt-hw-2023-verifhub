@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cszzj\\OneDrive\\GitHub\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj": {}
+    "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cszzj\\OneDrive\\GitHub\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj": {
+    "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cszzj\\OneDrive\\GitHub\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
+        "projectUniqueName": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
         "projectName": "BookSearchApp",
-        "projectPath": "C:\\Users\\cszzj\\OneDrive\\GitHub\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
-        "packagesPath": "C:\\Users\\cszzj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cszzj\\OneDrive\\GitHub\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\obj\\",
+        "projectPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\BookSearchApp.csproj",
+        "packagesPath": "C:\\Users\\lht\\.nuget\\packages\\",
+        "outputPath": "D:\\LhT\\BME\\2023sp\\integration\\verification\\ivt-hw-2023-verifhub\\BookSearchApp\\BookSearchApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\vs\\vs-WINSDK-COMPLIER\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\cszzj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lht\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,10 @@
       "frameworks": {
         "uap10.0.16299": {
           "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.5, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
@@ -50,6 +54,12 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0.68202, )"
             },
             "System.Collections": {
               "target": "Package",

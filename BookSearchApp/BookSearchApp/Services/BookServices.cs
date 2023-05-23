@@ -1,4 +1,4 @@
-﻿    using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,7 +10,7 @@ using BookSearchApp.Models;
 
 namespace BookSearchApp.Services
 {
-    internal class BookServices
+    public class BookServices
     {
         private readonly Uri serverUrl = new Uri("https://openlibrary.org/");//static Uri
 
