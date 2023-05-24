@@ -1,0 +1,30 @@
+# https://circleci.com/docs/2.0/config-intro/
+
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x'
+    - name: Restore NuGet packages
+      run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
+    - name: Run tests
+      run: dotnet test BookSearchApp/UnitTestProject_Verfication/UnitTestProject_Verfication.csproj --configuration Release
+    - name: Restore dependencies
+      run: dotnet restore BookSearchApp/BookSearchApp/BookSearchApp.csproj
+    - name: Test
+      run: dotnet test BookSearchApp/UnitTestProject_Verfication/UnitTestProject_Verfication.csproj --no-build --verbosity normal

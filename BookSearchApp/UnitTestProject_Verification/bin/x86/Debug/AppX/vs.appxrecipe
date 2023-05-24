@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-22T19:44:24.897</Modified>
+      <Modified>2023-05-23T18:58:49.330</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\UnitTestProject_Verification.exe">
       <PackagePath>entrypoint\UnitTestProject_Verification.exe</PackagePath>
-      <Modified>2023-05-22T19:44:24.067</Modified>
+      <Modified>2023-05-23T18:58:48.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.exe">
       <PackagePath>BookSearchApp.exe</PackagePath>
-      <Modified>2023-05-22T07:28:51.429</Modified>
+      <Modified>2023-05-23T18:44:25.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\UnitTestProject_Verification.pdb">
       <PackagePath>UnitTestProject_Verification.pdb</PackagePath>
-      <Modified>2023-05-22T19:44:24.067</Modified>
+      <Modified>2023-05-23T18:58:48.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.pdb">
       <PackagePath>BookSearchApp.pdb</PackagePath>
-      <Modified>2023-05-22T07:28:51.429</Modified>
+      <Modified>2023-05-23T18:44:25.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\17.0\References\CommonConfiguration\neutral\testhost.dll">
       <PackagePath>testhost.dll</PackagePath>
@@ -176,37 +176,37 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-03-10T18:18:35.261</Modified>
+      <Modified>2023-05-23T18:24:35.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-10T18:18:35.296</Modified>
+      <Modified>2023-05-23T18:24:35.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-10T18:18:35.297</Modified>
+      <Modified>2023-05-23T18:24:35.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-10T18:18:35.297</Modified>
+      <Modified>2023-05-23T18:24:35.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-10T18:18:35.298</Modified>
+      <Modified>2023-05-23T18:24:35.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-10T18:18:35.298</Modified>
+      <Modified>2023-05-23T18:24:35.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-10T18:18:35.301</Modified>
+      <Modified>2023-05-23T18:24:35.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\6df91ec1aa415891e41b4a31620b077c6a76e146.png">
       <PackagePath>Assets\6df91ec1aa415891e41b4a31620b077c6a76e146.png</PackagePath>
@@ -214,7 +214,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\UnitTestProject_Verification.xr.xml">
       <PackagePath>UnitTestProject_Verification.xr.xml</PackagePath>
-      <Modified>2023-05-21T12:24:04.422</Modified>
+      <Modified>2023-05-23T18:24:35.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.xr.xml">
       <PackagePath>BookSearchApp.xr.xml</PackagePath>
@@ -222,23 +222,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\UnitTestApp.xbf">
       <PackagePath>UnitTestApp.xbf</PackagePath>
-      <Modified>2023-05-22T19:44:23.834</Modified>
+      <Modified>2023-05-23T18:58:48.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-23T18:44:24.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\AuthorPage.xbf">
       <PackagePath>Views\AuthorPage.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-23T18:44:24.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\BookDetailPage.xbf">
       <PackagePath>Views\BookDetailPage.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-23T18:44:24.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-23T18:44:24.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\Assets\b9c21d1dc50337a0673157e535e3283121435fd0.jpg">
       <PackagePath>Assets\b9c21d1dc50337a0673157e535e3283121435fd0.jpg</PackagePath>
@@ -258,11 +258,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-22T17:21:31.019</Modified>
+      <Modified>2023-05-23T18:57:56.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Core\UnitTestProject_Verification.exe">
       <PackagePath>UnitTestProject_Verification.exe</PackagePath>
-      <Modified>2023-05-22T19:44:24.894</Modified>
+      <Modified>2023-05-23T18:58:49.327</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

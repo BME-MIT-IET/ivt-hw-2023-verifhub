@@ -81,58 +81,58 @@ namespace UnitTestProject_Verification
             AuthorPageViewModel = null;
         }
     }
-    //[TestClass]
-    //public class UwpAppTests
-    //{
-    //    private const string WindowsApplicationDriverUrl = "http://127.0.0.1:4723";
-    //    private const string UwpAppId = "1720cb58-9249-4726-b532-061a95fab400_46g4wnw8zydga";
+    [TestClass]
+    public class UwpAppTests
+    {
+        private const string WindowsApplicationDriverUrl = "http://127.0.0.1:4723";
+        private const string UwpAppId = "1720cb58-9249-4726-b532-061a95fab400_46g4wnw8zydga";
 
-    //    //private readonly string appPath = Path.Combine("1720cb58-9249-4726-b532-061a95fab400");
+        //private readonly string appPath = Path.Combine("1720cb58-9249-4726-b532-061a95fab400");
 
-    //    private WindowsDriver<WindowsElement> driver;
+        private WindowsDriver<WindowsElement> driver;
 
-    //    [TestInitialize]
-    //    public void TestInitialize()
-    //    {
-    //        Process.Start(@"D:\extension application\WinAppDriver\WinAppDriver.exe");
-    //        AppiumOptions appiumOptions = new AppiumOptions();
-    //        appiumOptions.AddAdditionalCapability("app", @"D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x64\Debug\BookSearchApp.exe");
-    //        driver = new WindowsDriver<WindowsElement>(new Uri(WindowsApplicationDriverUrl), appiumOptions);
-    //        Assert.IsNotNull(driver);
-    //    }
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            //Process.Start(@"D:\extension application\WinAppDriver\WinAppDriver.exe");
+            AppiumOptions appiumOptions = new AppiumOptions();
+            appiumOptions.AddAdditionalCapability("app", @"D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\obj\x64\Debug\BookSearchApp.exe");
+            driver = new WindowsDriver<WindowsElement>(new Uri(WindowsApplicationDriverUrl), appiumOptions);
+            Assert.IsNotNull(driver);
+        }
 
-    //    [TestCleanup]
-    //    public void TestCleanup()
-    //    {
-    //        driver?.Quit();
-    //    }
+        [TestCleanup]
+        public void TestCleanup()
+        {
+            driver?.Quit();
+        }
 
-    //    [TestMethod]
-    //    public void TestButtonClicked()
-    //    {
-    //        // 找到输入框元素
-    //        WindowsElement inputBox = driver.FindElementByAccessibilityId("SearchBox_Title");
+        [TestMethod]
+        public void TestButtonClicked()
+        {
+            // 找到输入框元素
+            WindowsElement inputBox = driver.FindElementByAccessibilityId("SearchBox_Title");
 
-    //        // 输入文本 "Harry" 到输入框
-    //        inputBox.SendKeys("Harry");
+            // 输入文本 "Harry" 到输入框
+            inputBox.SendKeys("Harry");
 
-    //        // 找到"Search"按钮元素
-    //        WindowsElement searchButton = driver.FindElementByAccessibilityId("SearchButton_Title");
+            // 找到"Search"按钮元素
+            WindowsElement searchButton = driver.FindElementByAccessibilityId("SearchButton_Title");
 
-    //        // 模拟点击"Search"按钮
-    //        searchButton.Click();
+            // 模拟点击"Search"按钮
+            searchButton.Click();
 
-    //        // 等待一定时间，确保数据加载完成
-    //        System.Threading.Thread.Sleep(2000);
+            // 等待一定时间，确保数据加载完成
+            System.Threading.Thread.Sleep(2000);
 
-    //        // 找到ListView元素
-    //        WindowsElement listView = driver.FindElementByAccessibilityId("MainGridView");
+            // 找到ListView元素
+            WindowsElement listView = driver.FindElementByAccessibilityId("MainGridView");
 
-    //        // 验证输入框的数据是否为 "Harry"
-    //        Assert.AreEqual("Harry", inputBox.Text);
+            // 验证输入框的数据是否为 "Harry"
+            Assert.AreEqual("Harry", inputBox.Text);
 
-    //        // 验证ListView是否显示了书籍
-    //        Assert.IsTrue(listView.FindElementsByClassName("Books").Any());
-    //    }
-    //}
+            // 验证ListView是否显示了书籍
+            Assert.IsTrue(listView.FindElementsByClassName("Books").Any());
+        }
+    }
 }
