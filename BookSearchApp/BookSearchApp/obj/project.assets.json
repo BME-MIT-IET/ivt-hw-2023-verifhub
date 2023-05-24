@@ -60,6 +60,73 @@
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
         }
       },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
         "type": "package",
         "dependencies": {
@@ -716,6 +783,154 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/alpine-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-arm"
+          },
+          "runtimes/alpine-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-arm64"
+          },
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-armel"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-mips64"
+          },
+          "runtimes/linux-musl-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm"
+          },
+          "runtimes/linux-musl-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-s390x/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-s390x"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-arm64"
+          },
+          "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-x64"
+          },
+          "runtimes/osx-arm64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -730,6 +945,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -1059,6 +1290,22 @@
           }
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1175,6 +1422,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1249,6 +1512,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -1531,6 +1807,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -2548,6 +2891,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -2572,6 +2964,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -2873,6 +3281,22 @@
           "lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2990,6 +3414,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3061,6 +3501,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -3387,6 +3840,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -4435,6 +4955,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -4459,6 +5028,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -4760,6 +5345,22 @@
           "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4877,6 +5478,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4948,6 +5565,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -5274,6 +5904,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -6322,6 +7019,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -6346,6 +7092,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -6647,6 +7409,22 @@
           "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6764,6 +7542,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6835,6 +7629,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -7161,6 +7968,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -8178,6 +9052,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -8202,6 +9125,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -8503,6 +9442,22 @@
           "lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8620,6 +9575,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8691,6 +9662,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -9017,6 +10001,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -10065,6 +11116,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -10089,6 +11189,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -10390,6 +11506,22 @@
           "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10507,6 +11639,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10578,6 +11726,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -10904,6 +12065,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -11921,6 +13149,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -11945,6 +13222,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -12246,6 +13539,22 @@
           "lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -12363,6 +13672,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -12434,6 +13759,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -12760,6 +14098,73 @@
         },
         "runtime": {
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.8",
+          "Newtonsoft.Json": "13.0.1",
+          "SQLitePCLRaw.bundle_green": "2.1.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Distribute/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -13808,6 +15213,55 @@
       "SonarAnalyzer.CSharp/9.0.0.68202": {
         "type": "package"
       },
+      "SQLitePCLRaw.bundle_green/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.0",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
       "System.Buffers/4.3.0": {
         "type": "package",
         "compile": {
@@ -13832,6 +15286,22 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -14133,6 +15603,22 @@
           "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll": {}
         }
       },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ObjectModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -14250,6 +15736,22 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -14321,6 +15823,19 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -14647,6 +16162,136 @@
         "lib/net40/SeleniumExtras.PageObjects.dll",
         "lib/net45/SeleniumExtras.PageObjects.dll",
         "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
+    "Microsoft.AppCenter/5.0.1": {
+      "sha512": "FaFm30WIY0NxeEdwkcU7ebkHLlAkPFaXQrakVYnmAdKJTQ8Ox6qoGbgjllfhYrZ8UvEXLaVwMr+K9ieGNSd2og==",
+      "type": "package",
+      "path": "microsoft.appcenter/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net462/Microsoft.AppCenter.dll",
+        "lib/net462/Microsoft.AppCenter.xml",
+        "lib/net472/Microsoft.AppCenter.dll",
+        "lib/net472/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/appcenter-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/5.0.1": {
+      "sha512": "w7TsuaybdbnwvSsln6s0vydhT/1B1lp2zGRYG/Flc1kAtvEeW7K6y3AiKokpWoZJgV3OyERTNJNzNhuYR5Lb6A==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net462/Microsoft.AppCenter.Analytics.dll",
+        "lib/net462/Microsoft.AppCenter.Analytics.xml",
+        "lib/net472/Microsoft.AppCenter.Analytics.dll",
+        "lib/net472/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/appcenter-analytics-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/5.0.1": {
+      "sha512": "TNKkvX9H8fSRCgkFwvrPxBRyrhyX8x05RyyeVUL2XUPPM7SnXUY9Ef6BP2ZRbBU2+IbKBJdPFeRdUmVleAjQpg==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net462/Microsoft.AppCenter.Crashes.dll",
+        "lib/net462/Microsoft.AppCenter.Crashes.xml",
+        "lib/net472/Microsoft.AppCenter.Crashes.dll",
+        "lib/net472/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/appcenter-crashes-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Distribute/5.0.1": {
+      "sha512": "gTQQRBfvIgWIrUHiv/cDqWVgMCVqBtOjFu5wr7++qMeCgTzkRXJTH55Sj0/ZtwFUI0X6ycx+7B0OLzE+mwcGqQ==",
+      "type": "package",
+      "path": "microsoft.appcenter.distribute/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Distribute.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Distribute.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Distribute.xml",
+        "lib/net6.0-android29.0/appcenter-distribute-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Distribute.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Distribute.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Distribute.xml",
+        "microsoft.appcenter.distribute.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.distribute.nuspec"
       ]
     },
     "Microsoft.Net.Native.Compiler/2.2.12-rel-31116-00": {
@@ -19896,6 +21541,93 @@
         "tools/uninstall.ps1"
       ]
     },
+    "SQLitePCLRaw.bundle_green/2.1.0": {
+      "sha512": "VPLK8FzWwJ1RkAWClYOBmjlzFZbz9ME6pdmz0oCoZw736/oIdKldzTxz8S1YGielxYxGHDdK5FczZTOs8LUbbQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.xml",
+        "lib/net6.0-ios14.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net6.0-tvos10.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "lib/xamarinios10/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.2.1.0.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.1.0": {
+      "sha512": "6khRuPd6ScBUQzV9bti+OtwqwFsMMgJzibhvbgiAIFVQhrowFOCM/Zq0xm00+nVEgEfPwWEOLhYvxs/5j+zAcg==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.1.0.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.0": {
+      "sha512": "7p5ltRKUA/uScNRnd20Rg1c7cC4nWwUQIXRFITIR1G0wNCnJ9bj060VanPh2J352KOHpZ3CEOJKu3dMfyY4YMQ==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "lib/net461/_._",
+        "lib/netstandard2.0/_._",
+        "runtimes/alpine-arm/native/libe_sqlite3.so",
+        "runtimes/alpine-arm64/native/libe_sqlite3.so",
+        "runtimes/alpine-x64/native/libe_sqlite3.so",
+        "runtimes/browser-wasm/nativeassets/net6.0/e_sqlite3.a",
+        "runtimes/linux-arm/native/libe_sqlite3.so",
+        "runtimes/linux-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-armel/native/libe_sqlite3.so",
+        "runtimes/linux-mips64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-arm/native/libe_sqlite3.so",
+        "runtimes/linux-musl-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-x64/native/libe_sqlite3.so",
+        "runtimes/linux-s390x/native/libe_sqlite3.so",
+        "runtimes/linux-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x86/native/libe_sqlite3.so",
+        "runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib",
+        "runtimes/maccatalyst-x64/native/libe_sqlite3.dylib",
+        "runtimes/osx-arm64/native/libe_sqlite3.dylib",
+        "runtimes/osx-x64/native/libe_sqlite3.dylib",
+        "runtimes/win-arm/native/e_sqlite3.dll",
+        "runtimes/win-arm64/native/e_sqlite3.dll",
+        "runtimes/win-x64/native/e_sqlite3.dll",
+        "runtimes/win-x86/native/e_sqlite3.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
+        "sqlitepclraw.lib.e_sqlite3.2.1.0.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.0": {
+      "sha512": "OwvGO4R0ujrdtTiIAiCN7C+2yVcLHtaF1ykcVe/Fb5KDqm1vfUxWinNYvw0S7NchpfTvR/9V9yugzqYTIvtTyA==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.2.1.0.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
     "System.Buffers/4.3.0": {
       "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
       "type": "package",
@@ -19977,6 +21709,29 @@
         "ref/xamarinwatchos10/_._",
         "system.collections.4.3.0.nupkg.sha512",
         "system.collections.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.6.0": {
+      "sha512": "+aL946rTSJyo4PqstwsVZ5RBfaxfkIx+nTMfpmaxzorqgifRJwndBZhXPWNWGJpys7cQ1/vCvilYN9ugM05JFA==",
+      "type": "package",
+      "path": "system.collections.immutable/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.6.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
@@ -20911,6 +22666,27 @@
         "system.linq.expressions.nuspec"
       ]
     },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.ObjectModel/4.3.0": {
       "sha512": "bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "type": "package",
@@ -21259,6 +23035,27 @@
         "system.reflection.extensions.nuspec"
       ]
     },
+    "System.Reflection.Metadata/1.7.0": {
+      "sha512": "PodRDaRRNI3BcF3zuEsrzn1jm/zws5UevTzIv5FqcOwWB3VPaU4jS6vt0tSxu+i38Wtn9vXFNgDHw09nDv8y5Q==",
+      "type": "package",
+      "path": "system.reflection.metadata/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.1/System.Reflection.Metadata.dll",
+        "lib/netstandard1.1/System.Reflection.Metadata.xml",
+        "lib/netstandard2.0/System.Reflection.Metadata.dll",
+        "lib/netstandard2.0/System.Reflection.Metadata.xml",
+        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
+        "system.reflection.metadata.1.7.0.nupkg.sha512",
+        "system.reflection.metadata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Reflection.Primitives/4.3.0": {
       "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
       "type": "package",
@@ -21517,6 +23314,31 @@
         "ref/xamarinwatchos10/_._",
         "system.runtime.4.3.0.nupkg.sha512",
         "system.runtime.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Runtime.Extensions/4.3.0": {
@@ -22330,6 +24152,9 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Appium.WebDriver >= 4.4.5",
+      "Microsoft.AppCenter.Analytics >= 5.0.1",
+      "Microsoft.AppCenter.Crashes >= 5.0.1",
+      "Microsoft.AppCenter.Distribute >= 5.0.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "Microsoft.Xaml.Behaviors.Uwp.Managed >= 2.0.1",
       "Newtonsoft.Json >= 13.0.3",
@@ -22381,6 +24206,18 @@
           "Appium.WebDriver": {
             "target": "Package",
             "version": "[4.4.5, )"
+          },
+          "Microsoft.AppCenter.Analytics": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "Microsoft.AppCenter.Crashes": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "Microsoft.AppCenter.Distribute": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
