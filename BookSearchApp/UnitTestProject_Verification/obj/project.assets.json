@@ -1831,6 +1831,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -3948,6 +3949,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -6096,6 +6098,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -8244,6 +8247,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -10361,6 +10365,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -12509,6 +12514,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -14626,6 +14632,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -16774,6 +16781,7 @@
         "framework": "UAP,Version=v10.0.16299",
         "dependencies": {
           "Appium.WebDriver": "4.4.5",
+          "Microsoft.AppCenter": "5.0.1",
           "Microsoft.AppCenter.Analytics": "5.0.1",
           "Microsoft.AppCenter.Crashes": "5.0.1",
           "Microsoft.AppCenter.Distribute": "5.0.1",
@@ -25209,6 +25217,7 @@
       "BookSearchApp >= 1.0.0",
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
+      "Microsoft.AppCenter >= 5.0.1",
       "Microsoft.AppCenter.Analytics >= 5.0.1",
       "Microsoft.AppCenter.Crashes >= 5.0.1",
       "Microsoft.AppCenter.Distribute >= 5.0.1",
@@ -25272,6 +25281,10 @@
           "MSTest.TestFramework": {
             "target": "Package",
             "version": "[2.2.7, )"
+          },
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",

@@ -170,6 +170,9 @@
     <PackageReference Include="Appium.WebDriver">
       <Version>4.4.5</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.AppCenter">
+      <Version>5.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.AppCenter.Analytics">
       <Version>5.0.1</Version>
     </PackageReference>

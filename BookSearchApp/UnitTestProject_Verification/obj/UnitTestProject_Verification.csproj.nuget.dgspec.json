@@ -43,6 +43,10 @@
               "target": "Package",
               "version": "[4.4.5, )"
             },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -163,6 +167,10 @@
             "MSTest.TestFramework": {
               "target": "Package",
               "version": "[2.2.7, )"
+            },
+            "Microsoft.AppCenter": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Microsoft.AppCenter.Analytics": {
               "target": "Package",

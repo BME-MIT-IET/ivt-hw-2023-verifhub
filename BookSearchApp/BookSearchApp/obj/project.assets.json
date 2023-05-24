@@ -24152,6 +24152,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Appium.WebDriver >= 4.4.5",
+      "Microsoft.AppCenter >= 5.0.1",
       "Microsoft.AppCenter.Analytics >= 5.0.1",
       "Microsoft.AppCenter.Crashes >= 5.0.1",
       "Microsoft.AppCenter.Distribute >= 5.0.1",
@@ -24206,6 +24207,10 @@
           "Appium.WebDriver": {
             "target": "Package",
             "version": "[4.4.5, )"
+          },
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",
