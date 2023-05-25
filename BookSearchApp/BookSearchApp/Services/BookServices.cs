@@ -27,7 +27,7 @@ namespace BookSearchApp.Services
         public async Task<List<Book>> SearchBooksAsync(string searchTerm)
         {
             var booksResponse = await GetAsync<BooksResponse>(new Uri(serverUrl, $"search.json?title={searchTerm}"));//Get data from a specific api which search the book with the title
-
+            Debug.WriteLine("content number of book service is :"+booksResponse.Docs.Count);
             var bookItems = new List<Book>();
             foreach (var book in booksResponse.Docs)//book's data from list 
             {
@@ -37,7 +37,8 @@ namespace BookSearchApp.Services
                     author_name = book.author_name,
                     first_publish_year = book.first_publish_year,
                     language= book.language,
-                    ImageUrl= $"https://covers.openlibrary.org/b/id/{book.cover_i}-S.jpg"
+                    author_key = book.author_key,
+                    ImageUrl = $"https://covers.openlibrary.org/b/id/{book.cover_i}-S.jpg"
                 };
                 bookItems.Add(bookItem);//add books to a new list
             }
@@ -46,7 +47,7 @@ namespace BookSearchApp.Services
         public async Task<List<Book>> SearchBooksWithAuthorAsync(string searchTerm)
         {
             var booksResponse = await GetAsync<BooksResponse>(new Uri(serverUrl, $"search.json?author={searchTerm}"));//Get data from a specific api which search the books of the author
-
+            Debug.WriteLine("content number of book service is :" + booksResponse.Docs.Count);
             var bookItems = new List<Book>();
             foreach (var book in booksResponse.Docs)
             {

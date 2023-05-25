@@ -78,6 +78,7 @@ D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\Un
 D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\WebDriver.dll
 D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\System.Drawing.Common.dll
 D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\obj\x86\Debug\FxResources.System.Drawing.Common.SR.resw
+<<<<<<< Updated upstream
 C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Template10Library\Template10Library.xr.xml
 C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Template10Library\Properties\Template10Library.rd.xml
 C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
@@ -159,3 +160,18 @@ C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProjec
 C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
 C:\Users\cszzj\OneDrive\GitHub\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+=======
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Microsoft.AppCenter.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Microsoft.AppCenter.Analytics.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Microsoft.AppCenter.Crashes.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\Microsoft.AppCenter.Distribute.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\SQLitePCLRaw.core.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\e_sqlite3.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\System.Collections.Immutable.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\System.Reflection.Metadata.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\obj\x86\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\UnitTestProject_Verification\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
+>>>>>>> Stashed changes

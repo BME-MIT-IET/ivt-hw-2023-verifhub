@@ -3,6 +3,7 @@ using BookSearchApp.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,6 +52,7 @@ namespace BookSearchApp.ModelViews
         public async Task LoadAuthor()
         {
             Author = await _bookServices.GetAuthorAsync(_authorKey);//get author data from api
+            Debug.WriteLine("The author key passed from MainPage"+_authorKey);
         }
     }
 }

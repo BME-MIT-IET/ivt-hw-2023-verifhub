@@ -52,6 +52,7 @@ namespace BookSearchApp.Views
                 var hyperlinkButton = (HyperlinkButton)sender;
                 var book = (Book)hyperlinkButton.DataContext;//get the book data which are chosed
                 Frame.Navigate(typeof(AuthorPage), book.FirstAuthorKey);//transfer the authorkey data to AuthorPage
+                Debug.WriteLine("The key from BookService:"+book.FirstAuthorKey);
             }
             catch(Exception ex) //Debug
             {

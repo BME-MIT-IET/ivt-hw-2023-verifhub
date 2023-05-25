@@ -37,7 +37,23 @@
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\dotnetseleniumextras.pageobjects\3.11.0\lib\netstandard2.0\SeleniumExtras.PageObjects.dll">
       <PackagePath>SeleniumExtras.PageObjects.dll</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+=======
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter\5.0.1\lib\uap10.0.16299\Microsoft.AppCenter.dll">
+      <PackagePath>Microsoft.AppCenter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter.analytics\5.0.1\lib\uap10.0.16299\Microsoft.AppCenter.Analytics.dll">
+      <PackagePath>Microsoft.AppCenter.Analytics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter.crashes\5.0.1\lib\uap10.0.16299\Microsoft.AppCenter.Crashes.dll">
+      <PackagePath>Microsoft.AppCenter.Crashes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter.distribute\5.0.1\lib\netstandard2.0\Microsoft.AppCenter.Distribute.dll">
+      <PackagePath>Microsoft.AppCenter.Distribute.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+>>>>>>> Stashed changes
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
@@ -55,10 +71,38 @@
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll">
       <PackagePath>WebDriver.dll</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\system.drawing.common\4.7.2\lib\netstandard2.0\System.Drawing.Common.dll">
       <PackagePath>System.Drawing.Common.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cszzj\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library.dll">
+=======
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.bundle_green\2.1.0\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.core\2.1.0\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.0\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.0\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.collections.immutable\1.6.0\lib\netstandard2.0\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.drawing.common\4.7.2\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.reflection.metadata\1.7.0\lib\netstandard2.0\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library.dll">
+>>>>>>> Stashed changes
       <PackagePath>Template10Library.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">

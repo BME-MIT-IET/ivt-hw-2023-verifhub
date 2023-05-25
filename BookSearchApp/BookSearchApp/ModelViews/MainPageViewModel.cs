@@ -51,6 +51,7 @@ namespace BookSearchApp.ModelViews
                 {
                     _searchTerm = value;
                     PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SearchTerm)));
+                    Debug.WriteLine("The input key for query: "+SearchTerm);
                 }
             }
         }
@@ -68,6 +69,7 @@ namespace BookSearchApp.ModelViews
                 {
                     _books.Add(book);//put data into list
                 }
+                Debug.WriteLine("Searching with authr name:"+_books.Count);
             }
         }
         public async Task SearchBooksAsync()//search with book title
@@ -81,6 +83,7 @@ namespace BookSearchApp.ModelViews
                 {
                     _books.Add(book);//save the data to the viewmodel
                 }
+                Debug.WriteLine("Books content number of viewmodel is:"+_books.Count);
             }
         }
         public void ShowImagePopup(string imageUrl)//Zoom in picture
@@ -94,6 +97,5 @@ namespace BookSearchApp.ModelViews
 
             _ = dialog.ShowAsync();//show the zoomed in picture to a Pop-ups
         }
-       
     }
 }

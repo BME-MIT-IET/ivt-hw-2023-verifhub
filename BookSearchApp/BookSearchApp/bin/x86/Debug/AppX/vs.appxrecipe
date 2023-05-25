@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-22T07:28:53.793</Modified>
+      <Modified>2023-05-24T16:21:45.037</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\BookSearchApp.exe">
       <PackagePath>entrypoint\BookSearchApp.exe</PackagePath>
-      <Modified>2023-05-22T07:28:51.429</Modified>
+      <Modified>2023-05-24T16:21:44.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\appium.webdriver\4.4.5\lib\netstandard2.0\Appium.Net.dll">
       <PackagePath>Appium.Net.dll</PackagePath>
@@ -49,6 +49,22 @@
     <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\dotnetseleniumextras.pageobjects\3.11.0\lib\netstandard2.0\SeleniumExtras.PageObjects.dll">
       <PackagePath>SeleniumExtras.PageObjects.dll</PackagePath>
       <Modified>2018-03-11T20:54:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter\5.0.1\lib\uap10.0.16299\Microsoft.AppCenter.dll">
+      <PackagePath>Microsoft.AppCenter.dll</PackagePath>
+      <Modified>2022-12-02T09:56:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter.analytics\5.0.1\lib\uap10.0.16299\Microsoft.AppCenter.Analytics.dll">
+      <PackagePath>Microsoft.AppCenter.Analytics.dll</PackagePath>
+      <Modified>2022-12-02T09:56:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter.crashes\5.0.1\lib\uap10.0.16299\Microsoft.AppCenter.Crashes.dll">
+      <PackagePath>Microsoft.AppCenter.Crashes.dll</PackagePath>
+      <Modified>2022-12-02T09:56:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.appcenter.distribute\5.0.1\lib\netstandard2.0\Microsoft.AppCenter.Distribute.dll">
+      <PackagePath>Microsoft.AppCenter.Distribute.dll</PackagePath>
+      <Modified>2022-12-02T09:56:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.1\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -74,9 +90,37 @@
       <PackagePath>WebDriver.dll</PackagePath>
       <Modified>2018-10-31T09:53:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.bundle_green\2.1.0\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2022-05-23T20:51:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.core\2.1.0\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-05-23T20:49:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.0\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2022-05-23T20:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.0\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2022-05-23T20:49:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.collections.immutable\1.6.0\lib\netstandard2.0\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2019-09-13T02:27:58.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.drawing.common\4.7.2\lib\netstandard2.0\System.Drawing.Common.dll">
       <PackagePath>System.Drawing.Common.dll</PackagePath>
       <Modified>2021-01-19T20:29:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.reflection.metadata\1.7.0\lib\netstandard2.0\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2019-09-13T02:28:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T19:38:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lht\.nuget\packages\template10\1.1.12\lib\uap10.0\Template10Library.dll">
       <PackagePath>Template10Library.dll</PackagePath>
@@ -150,19 +194,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-24T16:21:44.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\AuthorPage.xbf">
       <PackagePath>Views\AuthorPage.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-24T16:21:44.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\BookDetailPage.xbf">
       <PackagePath>Views\BookDetailPage.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-24T16:21:44.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2023-05-22T07:28:50.491</Modified>
+      <Modified>2023-05-24T16:21:44.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -170,11 +214,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-22T07:28:52.975</Modified>
+      <Modified>2023-05-24T15:44:37.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\LhT\BME\2023sp\integration\verification\ivt-hw-2023-verifhub\BookSearchApp\BookSearchApp\bin\x86\Debug\Core\BookSearchApp.exe">
       <PackagePath>BookSearchApp.exe</PackagePath>
-      <Modified>2023-05-22T07:28:53.785</Modified>
+      <Modified>2023-05-24T16:21:45.034</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
